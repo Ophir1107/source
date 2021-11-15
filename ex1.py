@@ -59,6 +59,7 @@ class client:
         self.packages=packages
     def getLocation(self, time):
         path_length=len(self.path)
+        return self.pathe[time%path_length] ;
 
 
 
